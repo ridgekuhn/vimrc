@@ -44,7 +44,7 @@ Vim 8+
     ```
 
 5. (Optional) Set the background color of your terminal to `#002b36` for Solarized compatibility.
-    MacOS users, try the included Terminal Profile.
+        MacOS users, try the [included Terminal Profile](https://github.com/ridgekuhn/vimrc/blob/master/HomebrewBlue.terminal).
 
 # Key Binding Cheatsheet
 
