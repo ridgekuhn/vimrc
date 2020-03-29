@@ -7,6 +7,9 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
+" vim-better-whitespace
+let g:strip_whitespace_on_save = 0
+
 " Solarized Colorscheme for Vim
 syntax enable
 set background=dark
