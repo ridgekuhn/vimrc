@@ -12,6 +12,8 @@ Vim 8+
 
 * [EditorConfig Vim](https://github.com/editorconfig/editorconfig-vim)
 
+* [Auto Pairs](https://github.com/jiangmiao/auto-pairs)
+
 * [emmet-vim](https://github.com/mattn/emmet-vim)
 
 * [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors)
