@@ -12,11 +12,9 @@ Vim 8+
 
 * [EditorConfig Vim](https://github.com/editorconfig/editorconfig-vim)
 
-* [Auto Pairs](https://github.com/jiangmiao/auto-pairs)
-
 * [emmet-vim](https://github.com/mattn/emmet-vim)
 
-* [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors)
+* [vim-visual-multi](https://github.com/mg979/vim-visual-multi)
 
 * [Asynchronous Lint Engine (ALE)](https://github.com/dense-analysis/ale)
 
@@ -61,6 +59,15 @@ Vim 8+
 * `Ctrl + X`: Skip the next match
 * `Ctrl + P`: Remove current cursor and go to previous match
 * `Alt + N`: Select all
+
+## vim-visual-multi
+* select words with Ctrl-N (like Ctrl-d in Sublime Text/VS Code)
+* create cursors vertically with Ctrl-Down/Ctrl-Up
+* select one character at a time with Shift-Arrows
+* press n/N to get next/previous occurrence
+* press [/] to select next/previous cursor
+* press q to skip current and get next occurrence
+* press Q to remove current cursor/selection
 
 # Resources
 * [emmet-vim cheatsheet](https://raw.githubusercontent.com/mattn/emmet-vim/master/TUTORIAL)
