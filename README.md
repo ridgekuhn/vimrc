@@ -20,6 +20,8 @@ Vim 8+
 
 * [Vim Better Whitespace](https://github.com/ntpeters/vim-better-whitespace)
 
+* [vim-jsx-pretty](https://github.com/MaxMEllon/vim-jsx-pretty)
+
 # Installation
 1. Remove any existing vim configuration
     ```shell
@@ -53,12 +55,6 @@ Vim 8+
 
 ## emmet-vim
 * `Ctrl + Y`: Emmet leader
-
-## vim-multiple-cursors
-* `Ctrl + N`: Start multicursor or  add new cursor to next match
-* `Ctrl + X`: Skip the next match
-* `Ctrl + P`: Remove current cursor and go to previous match
-* `Alt + N`: Select all
 
 ## vim-visual-multi
 * select words with Ctrl-N (like Ctrl-d in Sublime Text/VS Code)
