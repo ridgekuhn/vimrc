@@ -25,3 +25,7 @@ set updatetime=100
 
 " NERDtree
 map <C-o> :NERDTreeToggle<CR>
+
+" Show line numbers
+set nu
+

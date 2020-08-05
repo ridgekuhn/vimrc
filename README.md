@@ -16,6 +16,8 @@ Vim 8+
 
 * [vim-visual-multi](https://github.com/mg979/vim-visual-multi)
 
+* [auto-pairs](https://github.com/jiangmiao/auto-pairs)
+
 * [Asynchronous Lint Engine (ALE)](https://github.com/dense-analysis/ale)
 
 * [Vim Better Whitespace](https://github.com/ntpeters/vim-better-whitespace)
@@ -64,6 +66,9 @@ Vim 8+
 * press [/] to select next/previous cursor
 * press q to skip current and get next occurrence
 * press Q to remove current cursor/selection
+
+## auto-pairs
+* `M-p`: Toggle Autopairs (g:AutoPairsShortcutToggle)
 
 # Resources
 * [emmet-vim cheatsheet](https://raw.githubusercontent.com/mattn/emmet-vim/master/TUTORIAL)
