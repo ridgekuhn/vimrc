@@ -7,6 +7,9 @@ set tabstop=2
 set shiftwidth=2
 set noexpandtab
 
+" Enable vim-prettier on autosave for files that have @format or @prettier tag
+let g:prettier#autoformat = 1
+
 " vim-better-whitespace
 let g:strip_whitespace_on_save = 0
 

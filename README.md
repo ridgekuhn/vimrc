@@ -22,6 +22,8 @@ Vim 8+
 
 * [Vim Better Whitespace](https://github.com/ntpeters/vim-better-whitespace)
 
+* [vim-prettier](https://github.com/prettier/vim-prettier)
+
 * [vim-jsx-pretty](https://github.com/MaxMEllon/vim-jsx-pretty)
 
 # Installation
