@@ -2,27 +2,34 @@
 Vim 8+
 
 # Included Modules
+
+## Package Managers ##
+
 * [pathogen.vim](https://github.com/tpope/vim-pathogen)
 
+## Color Schemes ##
+
 * [Solarized Colorscheme for Vim](https://github.com/altercation/vim-colors-solarized)
+
+## Tools ##
 
 * [lightline.vim](https://github.com/itchyny/lightline.vim)
 
 * [NERDtree](https://github.com/preservim/nerdtree)
 
-* [EditorConfig Vim](https://github.com/editorconfig/editorconfig-vim)
+## Auto-Completion ##
 
 * [emmet-vim](https://github.com/mattn/emmet-vim)
 
-* [vim-visual-multi](https://github.com/mg979/vim-visual-multi)
-
 * [auto-pairs](https://github.com/jiangmiao/auto-pairs)
 
-* [Asynchronous Lint Engine (ALE)](https://github.com/dense-analysis/ale)
+* [vim-visual-multi](https://github.com/mg979/vim-visual-multi)
+
+## Code Style ##
+
+* [EditorConfig Vim](https://github.com/editorconfig/editorconfig-vim)
 
 * [Vim Better Whitespace](https://github.com/ntpeters/vim-better-whitespace)
-
-* [vim-prettier](https://github.com/prettier/vim-prettier)
 
 * [vim-jsx-pretty](https://github.com/MaxMEllon/vim-jsx-pretty)
 
