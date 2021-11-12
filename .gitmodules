@@ -46,3 +46,6 @@
 [submodule "pack/codesyntax/start/vim-styled-components"]
 	path = pack/codesyntax/start/vim-styled-components
 	url = https://github.com/styled-components/vim-styled-components.git
+[submodule "pack/colorschemes/start/vim-solarized8"]
+	path = pack/colorschemes/start/vim-solarized8
+	url = https://github.com/lifepillar/vim-solarized8.git

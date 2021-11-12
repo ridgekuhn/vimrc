@@ -11,7 +11,6 @@ set noexpandtab
 " vim-better-whitespace
 let g:strip_whitespace_on_save = 0
 
-
 " ========= Code Syntax =========
 
 " Show line numbers
@@ -22,9 +21,11 @@ set nu
 " Solarized Colorscheme for Vim
 syntax enable
 set background=dark
-let g:solarized_termcolors=256
-let g:solarized_termtrans=1
-colorscheme solarized
+"let g:solarized_termcolors=256
+"let g:solarized_termtrans=1
+"colorscheme solarized
+let g:solarized_use16=1
+colorscheme solarized8
 
 " ========= Utils =========
 
