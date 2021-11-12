@@ -1,36 +1,48 @@
-[submodule "pack/plugins/start/lightline"]
-	path = pack/plugins/start/lightline
+[submodule "pack/utils/start/lightline"]
+	path = pack/utils/start/lightline
 	url = https://github.com/itchyny/lightline.vim
-[submodule "pack/plugins/start/vim-gitgutter"]
-	path = pack/plugins/start/vim-gitgutter
+[submodule "pack/utils/start/vim-gitgutter"]
+	path = pack/utils/start/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter.git
-[submodule "pack/plugins/start/ale"]
-	path = pack/plugins/start/ale
-	url = https://github.com/dense-analysis/ale.git
-[submodule "bundle/emmet-vim"]
-	path = bundle/emmet-vim
+[submodule "pack/autocompletion/start/emmet-vim"]
+	path = pack/autocompletion/start/emmet-vim
 	url = https://github.com/mattn/emmet-vim.git
-[submodule "pack/plugins/start/editorconfig-vim"]
-	path = pack/plugins/start/editorconfig-vim
+[submodule "pack/codestyle/start/editorconfig-vim"]
+	path = pack/codestyle/start/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim.git
-[submodule "pack/plugins/start/nerdtree"]
-	path = pack/plugins/start/nerdtree
+[submodule "pack/utils/start/nerdtree"]
+	path = pack/utils/start/nerdtree
 	url = https://github.com/preservim/nerdtree.git
-[submodule "bundle/vim-colors-solarized"]
-	path = bundle/vim-colors-solarized
+[submodule "pack/colorschemes/start/vim-colors-solarized"]
+	path = pack/colorschemes/start/vim-colors-solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
-[submodule "bundle/vim-better-whitespace"]
-	path = bundle/vim-better-whitespace
+[submodule "pack/autocompletion/start/vim-better-whitespace"]
+	path = pack/autocompletion/start/vim-better-whitespace
 	url = git://github.com/ntpeters/vim-better-whitespace.git
-[submodule "bundle/vim-visual-multi"]
-	path = bundle/vim-visual-multi
+[submodule "pack/autocompletion/start/vim-visual-multi"]
+	path = pack/autocompletion/start/vim-visual-multi
 	url = https://github.com/mg979/vim-visual-multi.git
-[submodule "bundle/vim-jsx-pretty"]
-	path = bundle/vim-jsx-pretty
+[submodule "pack/codesyntax/start/vim-jsx-pretty"]
+	path = pack/codesyntax/start/vim-jsx-pretty
 	url = https://github.com/MaxMEllon/vim-jsx-pretty.git
-[submodule "bundle/auto-pairs"]
-	path = bundle/auto-pairs
+[submodule "pack/autocompletion/start/auto-pairs"]
+	path = pack/autocompletion/start/auto-pairs
 	url = https://github.com/jiangmiao/auto-pairs
-[submodule "bundle/vim-prettier"]
-	path = bundle/vim-prettier
-	url = https://github.com/prettier/vim-prettier
+[submodule "pack/codesyntax/start/vim-javascript"]
+	path = pack/codesyntax/start/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
+[submodule "pack/codesyntax/start/typescript-vim"]
+	path = pack/codesyntax/start/typescript-vim
+	url = https://github.com/leafgarland/typescript-vim.git
+[submodule "pack/codesyntax/start/vim-jsx-typescript"]
+	path = pack/codesyntax/start/vim-jsx-typescript
+	url = https://github.com/peitalin/vim-jsx-typescript.git
+[submodule "pack/utils/start/coc.nvim"]
+	path = pack/utils/start/coc.nvim
+	url = https://github.com/neoclide/coc.nvim.git
+[submodule "pack/codestyle/start/vim-styled-components"]
+	path = pack/codestyle/start/vim-styled-components
+	url = https://github.com/styled-components/vim-styled-components.git
+[submodule "pack/codesyntax/start/vim-styled-components"]
+	path = pack/codesyntax/start/vim-styled-components
+	url = https://github.com/styled-components/vim-styled-components.git

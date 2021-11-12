@@ -1,27 +1,20 @@
 # Requirements
+
 Vim 8+
+[NodeJS](https://nodejs.org/)
+[Yarn](https://yarnpkg.com/)
+
+&nbsp;
+
+---
 
 # Included Modules
 
-## Package Managers ##
-
-* [pathogen.vim](https://github.com/tpope/vim-pathogen)
-
-## Color Schemes ##
-
-* [Solarized Colorscheme for Vim](https://github.com/altercation/vim-colors-solarized)
-
-## Tools ##
-
-* [lightline.vim](https://github.com/itchyny/lightline.vim)
-
-* [NERDtree](https://github.com/preservim/nerdtree)
-
 ## Auto-Completion ##
 
-* [emmet-vim](https://github.com/mattn/emmet-vim)
-
 * [auto-pairs](https://github.com/jiangmiao/auto-pairs)
+
+* [emmet-vim](https://github.com/mattn/emmet-vim)
 
 * [vim-visual-multi](https://github.com/mg979/vim-visual-multi)
 
@@ -31,9 +24,38 @@ Vim 8+
 
 * [Vim Better Whitespace](https://github.com/ntpeters/vim-better-whitespace)
 
+* [vim-styled-components](https://github.com/styled-components/vim-styled-components.git)
+
+## Code Syntax ##
+
+* [typescript-vim](https://github.com/leafgarland/typescript-vim)
+
+* [vim-javascript](https://github.com/pangloss/vim-javascript)
+
 * [vim-jsx-pretty](https://github.com/MaxMEllon/vim-jsx-pretty)
 
+* [vim-jsx-typescript](https://github.com/peitalin/vim-jsx-typescript)
+
+## Color Schemes ##
+
+* [Solarized Colorscheme for Vim](https://github.com/altercation/vim-colors-solarized)
+
+## Utils ##
+
+* [Conquer of Completion](https://github.com/neoclide/coc.nvim)
+
+* [lightline.vim](https://github.com/itchyny/lightline.vim)
+
+* [NERDtree](https://github.com/preservim/nerdtree)
+
+* [vim-gitgutter](https://github.com/airblade/vim-gitgutter)
+
+&nbsp;
+
+---
+
 # Installation
+
 1. Remove any existing vim configuration
     ```shell
     $ rm ~/.vimrc
@@ -55,9 +77,14 @@ Vim 8+
     ```shell
     $ ~/.vim/.post-install.sh
     ```
+5. Install Node and Yarn (for Conquer of Completion)
 
-5. (Optional) Set the background color of your terminal to `#002b36` for Solarized compatibility.
+6. (Optional) Set the background color of your terminal to `#002b36` for Solarized compatibility.
         MacOS users, try the [included Terminal Profile](https://github.com/ridgekuhn/vimrc/blob/master/HomebrewBlue.terminal).
+
+&nbsp;
+
+---
 
 # Key Binding Cheatsheet
 
@@ -79,6 +106,15 @@ Vim 8+
 ## auto-pairs
 * `M-p`: Toggle Autopairs (g:AutoPairsShortcutToggle)
 
+&nbsp;
+
+---
+
 # Resources
+
+* [Conquer of Completion extensions](https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions#implemented-coc-extensions)
+
 * [emmet-vim cheatsheet](https://raw.githubusercontent.com/mattn/emmet-vim/master/TUTORIAL)
+
 * [EditorConfig Properties](https://github.com/editorconfig/editorconfig/wiki/EditorConfig-Properties)
+
