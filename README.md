@@ -40,6 +40,8 @@ Vim 8+
 
 * [Solarized Colorscheme for Vim](https://github.com/altercation/vim-colors-solarized)
 
+* [vim-solarized8](https://github.com/lifepillar/vim-solarized8)
+
 ## Utils ##
 
 * [Conquer of Completion](https://github.com/neoclide/coc.nvim)
