@@ -20,7 +20,7 @@ set nu
 
 " Solarized Colorscheme for Vim
 syntax enable
-set background=dark
+set background=light
 "let g:solarized_termcolors=256
 "let g:solarized_termtrans=1
 "colorscheme solarized
@@ -48,4 +48,10 @@ map <C-o> :NERDTreeToggle<CR>
 
 " vim-gitgutter
 set updatetime=100
+
+" MacOS Auto-Pairs shortcuts
+set <M-p>=p
+set <M-e>=e
+set <M-n>=n
+set <M-b>=b
 
