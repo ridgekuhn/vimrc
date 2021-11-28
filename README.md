@@ -26,6 +26,8 @@ Vim 8+
 
 * [vim-styled-components](https://github.com/styled-components/vim-styled-components.git)
 
+* [indentLine](https://github.com/Yggdroot/indentLine)
+
 ## Code Syntax ##
 
 * [typescript-vim](https://github.com/leafgarland/typescript-vim)

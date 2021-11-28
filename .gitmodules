@@ -49,3 +49,6 @@
 [submodule "pack/colorschemes/start/vim-solarized8"]
 	path = pack/colorschemes/start/vim-solarized8
 	url = https://github.com/lifepillar/vim-solarized8.git
+[submodule "pack/codestyle/start/indentLine"]
+	path = pack/codestyle/start/indentLine
+	url = https://github.com/Yggdroot/indentLine.git

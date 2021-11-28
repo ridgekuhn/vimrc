@@ -30,6 +30,10 @@ set background=dark
 let g:solarized_use16=1
 colorscheme solarized8
 
+"highlight tabs
+set list lcs=tab:\|\ 
+highlight SpecialKey guifg=black ctermbg=8 ctermfg=237
+
 " === Conquer of Completion ===
 let g:coc_global_extensions = ['coc-tsserver']
 
