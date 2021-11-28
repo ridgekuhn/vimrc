@@ -12,9 +12,6 @@ ln -s ~/.vim/.vimrc ~/.vimrc
 # vim-gitgutter
 vim -u NONE -c "helptags ~/.vim/pack/utils/start/vim-gitgutter/doc" -c q
 
-# NERDtree
-vim -u NONE -c "helptags ~/.vim/pack/utils/start/nerdtree/doc" -c q
-
 # indentLine
 vim -u NONE -c "helptags  ~/.vim/pack/vendor/start/indentLine/doc" -c q
 

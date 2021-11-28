@@ -35,7 +35,7 @@ set list lcs=tab:\|\
 highlight SpecialKey guifg=black ctermbg=8 ctermfg=237
 
 " === Conquer of Completion ===
-let g:coc_global_extensions = ['coc-tsserver']
+let g:coc_global_extensions = ['coc-explorer', 'coc-tsserver']
 
 if isdirectory('./node_modules') && isdirectory('./node_modules/prettier')
   let g:coc_global_extensions += ['coc-prettier']
@@ -91,13 +91,13 @@ let g:lightline = {
       \ },
       \ }
 
+"coc-explorer
+nmap <space>e <Cmd>CocCommand explorer<CR>
+
 " ========= Utils =========
 
 " lightline.vim
 set laststatus=2
-
-" NERDtree
-map <C-o> :NERDTreeToggle<CR>
 
 " vim-gitgutter
 set updatetime=100

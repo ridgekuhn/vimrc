@@ -52,3 +52,6 @@
 [submodule "pack/codestyle/start/indentLine"]
 	path = pack/codestyle/start/indentLine
 	url = https://github.com/Yggdroot/indentLine.git
+[submodule "pack/utils/start/coc-explorer"]
+	path = pack/utils/start/coc-explorer
+	url = https://github.com/weirongxu/coc-explorer.git

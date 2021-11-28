@@ -48,9 +48,9 @@ Vim 8+
 
 * [Conquer of Completion](https://github.com/neoclide/coc.nvim)
 
-* [lightline.vim](https://github.com/itchyny/lightline.vim)
+* [coc-explorer](https://github.com/weirongxu/coc-explorer)
 
-* [NERDtree](https://github.com/preservim/nerdtree)
+* [lightline.vim](https://github.com/itchyny/lightline.vim)
 
 * [vim-gitgutter](https://github.com/airblade/vim-gitgutter)
 
