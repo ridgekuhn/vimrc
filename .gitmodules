@@ -55,3 +55,6 @@
 [submodule "pack/utils/start/coc-explorer"]
 	path = pack/utils/start/coc-explorer
 	url = https://github.com/weirongxu/coc-explorer.git
+[submodule "pack/codesyntax/start/vim-graphql"]
+	path = pack/codesyntax/start/vim-graphql
+	url = https://github.com/jparise/vim-graphql.git

@@ -38,6 +38,8 @@ Vim 8+
 
 * [vim-jsx-typescript](https://github.com/peitalin/vim-jsx-typescript)
 
+* [vim-graphql](https://github.com/jparise/vim-graphql)
+
 ## Color Schemes ##
 
 * [Solarized Colorscheme for Vim](https://github.com/altercation/vim-colors-solarized)

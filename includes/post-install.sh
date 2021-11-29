@@ -1,11 +1,5 @@
 #!/bin/bash
 
-# error when referencing undefined variable
-set -o nounset
-
-# exit when command fails
-set -o errexit
-
 # Set up .vimrc
 ln -s ~/.vim/.vimrc ~/.vimrc
 
@@ -14,6 +8,9 @@ vim -u NONE -c "helptags ~/.vim/pack/utils/start/vim-gitgutter/doc" -c q
 
 # indentLine
 vim -u NONE -c "helptags  ~/.vim/pack/vendor/start/indentLine/doc" -c q
+
+# vim-graphql
+vim -u NONE -c "helptags ~/.vim/pack/codesyntax/start/vim-graphql/doc" -c q
 
 # Conquest of Completion
 # Install nodejs LTS if not present

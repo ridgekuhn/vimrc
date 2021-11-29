@@ -11,6 +11,7 @@ set noexpandtab
 " vim-better-whitespace
 let g:strip_whitespace_on_save = 0
 
+
 " ========= Code Syntax =========
 
 " Show line numbers
@@ -35,7 +36,7 @@ set list lcs=tab:\|\
 highlight SpecialKey guifg=black ctermbg=8 ctermfg=237
 
 " === Conquer of Completion ===
-let g:coc_global_extensions = ['coc-explorer', 'coc-tsserver']
+let g:coc_global_extensions = ['coc-graphql', 'coc-explorer', 'coc-tsserver']
 
 if isdirectory('./node_modules') && isdirectory('./node_modules/prettier')
   let g:coc_global_extensions += ['coc-prettier']
@@ -102,3 +103,5 @@ set laststatus=2
 " vim-gitgutter
 set updatetime=100
 
+" override indentLine conceal
+let g:indentLine_setConceal = 0
