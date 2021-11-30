@@ -32,7 +32,7 @@ let g:solarized_use16=1
 colorscheme solarized8
 
 "highlight tabs
-set list lcs=tab:\|\ 
+set list lcs=tab:⦙\ 
 highlight SpecialKey guifg=black ctermbg=8 ctermfg=237
 
 " === Conquer of Completion ===
@@ -103,5 +103,3 @@ set laststatus=2
 " vim-gitgutter
 set updatetime=100
 
-" override indentLine conceal
-let g:indentLine_setConceal = 0
