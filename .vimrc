@@ -33,7 +33,12 @@ colorscheme solarized8
 
 "highlight tabs
 set list lcs=tab:⦙\ 
-highlight SpecialKey guifg=black ctermbg=8 ctermfg=237
+
+if (&background == "light")
+	highlight SpecialKey guifg=black ctermbg=15 ctermfg=14
+else
+	highlight SpecialKey guifg=black ctermbg=8 ctermfg=237
+endif
 
 " === Conquer of Completion ===
 let g:coc_global_extensions = ['coc-graphql', 'coc-explorer', 'coc-tsserver']
