@@ -1,60 +1,30 @@
-[submodule "pack/utils/start/lightline"]
-	path = pack/utils/start/lightline
+[submodule "pack/themes/opt/vim-solarized8"]
+	path = pack/themes/opt/vim-solarized8
+	url = https://github.com/lifepillar/vim-solarized8
+[submodule "pack/themes/opt/vim-colors-solarized"]
+	path = pack/themes/opt/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized
+[submodule "pack/plugins/start/lightline.vim"]
+	path = pack/plugins/start/lightline.vim
 	url = https://github.com/itchyny/lightline.vim
-[submodule "pack/utils/start/vim-gitgutter"]
-	path = pack/utils/start/vim-gitgutter
-	url = https://github.com/airblade/vim-gitgutter.git
-[submodule "pack/autocompletion/start/emmet-vim"]
-	path = pack/autocompletion/start/emmet-vim
-	url = https://github.com/mattn/emmet-vim.git
-[submodule "pack/codestyle/start/editorconfig-vim"]
-	path = pack/codestyle/start/editorconfig-vim
-	url = https://github.com/editorconfig/editorconfig-vim.git
-[submodule "pack/utils/start/nerdtree"]
-	path = pack/utils/start/nerdtree
-	url = https://github.com/preservim/nerdtree.git
-[submodule "pack/colorschemes/start/vim-colors-solarized"]
-	path = pack/colorschemes/start/vim-colors-solarized
-	url = git://github.com/altercation/vim-colors-solarized.git
-[submodule "pack/autocompletion/start/vim-better-whitespace"]
-	path = pack/autocompletion/start/vim-better-whitespace
-	url = git://github.com/ntpeters/vim-better-whitespace.git
-[submodule "pack/autocompletion/start/vim-visual-multi"]
-	path = pack/autocompletion/start/vim-visual-multi
-	url = https://github.com/mg979/vim-visual-multi.git
-[submodule "pack/codesyntax/start/vim-jsx-pretty"]
-	path = pack/codesyntax/start/vim-jsx-pretty
-	url = https://github.com/MaxMEllon/vim-jsx-pretty.git
-[submodule "pack/autocompletion/start/auto-pairs"]
-	path = pack/autocompletion/start/auto-pairs
+[submodule "pack/plugins/start/vim-gitgutter"]
+	path = pack/plugins/start/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
+[submodule "pack/plugins/start/emmet-vim"]
+	path = pack/plugins/start/emmet-vim
+	url = https://github.com/mattn/emmet-vim
+[submodule "pack/plugins/start/editorconfig-vim"]
+	path = pack/plugins/start/editorconfig-vim
+	url = https://github.com/editorconfig/editorconfig-vim
+[submodule "pack/plugins/start/vim-better-whitespace"]
+	path = pack/plugins/start/vim-better-whitespace
+	url = https://github.com/ntpeters/vim-better-whitespace
+[submodule "pack/plugins/start/vim-visual-multi"]
+	path = pack/plugins/start/vim-visual-multi
+	url = https://github.com/mg979/vim-visual-multi
+[submodule "pack/plugins/start/auto-pairs"]
+	path = pack/plugins/start/auto-pairs
 	url = https://github.com/jiangmiao/auto-pairs
-[submodule "pack/codesyntax/start/vim-javascript"]
-	path = pack/codesyntax/start/vim-javascript
-	url = https://github.com/pangloss/vim-javascript.git
-[submodule "pack/codesyntax/start/typescript-vim"]
-	path = pack/codesyntax/start/typescript-vim
-	url = https://github.com/leafgarland/typescript-vim.git
-[submodule "pack/codesyntax/start/vim-jsx-typescript"]
-	path = pack/codesyntax/start/vim-jsx-typescript
-	url = https://github.com/peitalin/vim-jsx-typescript.git
-[submodule "pack/utils/start/coc.nvim"]
-	path = pack/utils/start/coc.nvim
-	url = https://github.com/neoclide/coc.nvim.git
-[submodule "pack/codestyle/start/vim-styled-components"]
-	path = pack/codestyle/start/vim-styled-components
-	url = https://github.com/styled-components/vim-styled-components.git
-[submodule "pack/codesyntax/start/vim-styled-components"]
-	path = pack/codesyntax/start/vim-styled-components
-	url = https://github.com/styled-components/vim-styled-components.git
-[submodule "pack/colorschemes/start/vim-solarized8"]
-	path = pack/colorschemes/start/vim-solarized8
-	url = https://github.com/lifepillar/vim-solarized8.git
-[submodule "pack/codestyle/start/indentLine"]
-	path = pack/codestyle/start/indentLine
-	url = https://github.com/Yggdroot/indentLine.git
-[submodule "pack/utils/start/coc-explorer"]
-	path = pack/utils/start/coc-explorer
-	url = https://github.com/weirongxu/coc-explorer.git
-[submodule "pack/codesyntax/start/vim-graphql"]
-	path = pack/codesyntax/start/vim-graphql
-	url = https://github.com/jparise/vim-graphql.git
+[submodule "pack/plugins/start/coc.nvim"]
+	path = pack/plugins/start/coc.nvim
+	url = https://github.com/neoclide/coc.nvim
