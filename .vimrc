@@ -192,18 +192,20 @@ set laststatus=2
 
 " ========= Solarized =========
 syntax enable
-set background=dark
+set background=light
+set termguicolors
+colorscheme solarized8
+"let g:solarized_use16=1
+
 "let g:solarized_termcolors=256
 "let g:solarized_termtrans=1
 "colorscheme solarized
-let g:solarized_use16=1
-colorscheme solarized8
 
-if (&background == "light")
-	highlight SpecialKey guifg=black ctermbg=15 ctermfg=14
-else
-	highlight SpecialKey guifg=black ctermbg=8 ctermfg=237
-endif
+"if (&background == "light")
+"	highlight SpecialKey guifg=black ctermbg=15 ctermfg=14
+"else
+"	highlight SpecialKey guifg=black ctermbg=8 ctermfg=1
+"endif
 
 " ======== vim-better-whitespace ========
 let g:strip_whitespace_on_save = 0
