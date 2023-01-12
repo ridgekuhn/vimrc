@@ -12,7 +12,7 @@ set nu
 set fcs=fold:\ ,vert:\|
 
 "highlight tabs
-set list lcs=tab:⦙\ 
+set list lcs=tab:\¦\ 
 
 " === coc.nvim of Completion ===
 " Some servers have issues with backup files, see #649.
@@ -201,11 +201,11 @@ colorscheme solarized8
 "let g:solarized_termtrans=1
 "colorscheme solarized
 
-"if (&background == "light")
-"	highlight SpecialKey guifg=black ctermbg=15 ctermfg=14
-"else
-"	highlight SpecialKey guifg=black ctermbg=8 ctermfg=1
-"endif
+if (&background == "light")
+	highlight SpecialKey guifg=black ctermbg=15 ctermfg=14
+else
+	highlight SpecialKey guifg=#0c5b6f guibg=NONE
+endif
 
 " ======== vim-better-whitespace ========
 let g:strip_whitespace_on_save = 0
