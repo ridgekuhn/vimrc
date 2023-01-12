@@ -27,3 +27,5 @@ cd ~/.vim/pack/plugins/start/coc.nvim
 yarn install
 
 vim -c "helptags ~/.vim/pack/plugins/start/coc.nvim/doc/ | q"
+
+rm -rf ~/.config/coc/
