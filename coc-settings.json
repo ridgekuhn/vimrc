@@ -4,6 +4,12 @@
 			"command": "graphql-lsp",
 			"args": ["server", "-m", "stream"],
 			"filetypes": ["graphql"]
+		},
+		"pyright": {
+			"inlayHints": {
+				"functionReturnTypes": false,
+				"variableTypes": false
+			}
 		}
 	}
 }
