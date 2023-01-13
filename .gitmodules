@@ -1,9 +1,6 @@
 [submodule "pack/themes/opt/vim-solarized8"]
 	path = pack/themes/opt/vim-solarized8
 	url = https://github.com/lifepillar/vim-solarized8
-[submodule "pack/themes/opt/vim-colors-solarized"]
-	path = pack/themes/opt/vim-colors-solarized
-	url = https://github.com/altercation/vim-colors-solarized
 [submodule "pack/plugins/start/lightline.vim"]
 	path = pack/plugins/start/lightline.vim
 	url = https://github.com/itchyny/lightline.vim

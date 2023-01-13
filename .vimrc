@@ -200,21 +200,18 @@ autocmd User CocStatusChange,CocDiagnosticChange call lightline#update()
 " ======== lightline.vim ========
 set laststatus=2
 
-" ========= Solarized =========
+" ========= Solarized8 =========
 syntax enable
 set background=dark
-set termguicolors
 colorscheme solarized8
-"let g:solarized_use16=1
-
-"let g:solarized_termcolors=256
-"let g:solarized_termtrans=1
-"colorscheme solarized
+let g:solarized_use16=1
+set t_Co=16
 
 if (&background == "light")
-	highlight SpecialKey guifg=black ctermbg=15 ctermfg=14
+	highlight SpecialKey ctermbg=NONE ctermfg=12
 else
-	highlight SpecialKey guifg=#0c5b6f guibg=NONE
+	highlight SpecialKey ctermbg=NONE ctermfg=10
+	highlight Pmenu ctermbg=NONE
 endif
 
 " ======== vim-better-whitespace ========
