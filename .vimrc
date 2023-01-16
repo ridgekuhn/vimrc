@@ -219,3 +219,6 @@ let g:strip_whitespace_on_save = 0
 
 " ======== vim-gitgutter ========
 set updatetime=100
+
+" ======== PICO-8 ========
+au BufRead,BufNewFile *.p8lua set ft=pico8

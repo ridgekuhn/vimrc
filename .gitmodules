@@ -36,4 +36,4 @@
 	url = https://github.com/jxnblk/vim-mdx-js.git
 [submodule "pack/plugins/start/PICO-8.vim"]
 	path = pack/plugins/start/PICO-8.vim
-	url = git@github.com:ridgekuhn/PICO-8.vim.git
+	url = https://github.com/Bakudankun/PICO-8.vim.git
