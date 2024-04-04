@@ -204,8 +204,9 @@ set laststatus=2
 syntax enable
 set background=dark
 colorscheme solarized8
-let g:solarized_use16=1
-set t_Co=16
+"let g:solarized_use16=1
+"set t_Co=16
+set termguicolors
 
 if (&background == "light")
 	highlight SpecialKey ctermbg=NONE ctermfg=12
