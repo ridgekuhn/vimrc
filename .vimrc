@@ -177,6 +177,7 @@ nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
+
 " ========= coc.nvim Extensions  ========
 let g:coc_global_extensions = ['coc-eslint', 'coc-explorer', 'coc-prettier', 'coc-pyright', 'coc-styled-components', 'coc-tsserver']
 
@@ -200,8 +201,6 @@ autocmd User CocStatusChange,CocDiagnosticChange call lightline#update()
 
 " coc-prettier
 command! -nargs=0 Prettier :CocCommand prettier.forceFormatDocument
-vmap <leader>p  <Plug>(coc-format-selected)
-nmap <leader>p  <Plug>(coc-format-selected)
 
 " ======== lightline.vim ========
 set laststatus=2
