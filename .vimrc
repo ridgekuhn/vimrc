@@ -208,7 +208,6 @@ set laststatus=2
 " ========= Solarized =========
 syntax enable
 set background=dark
-colorscheme solarized
 " let g:solarized_use16=1
 set t_Co=256
 " set termguicolors
@@ -234,6 +233,8 @@ augroup MyColors
     autocmd!
     autocmd ColorScheme * call MyHighlights()
 augroup END
+
+colorscheme solarized
 
 " ======== vim-better-whitespace ========
 let g:strip_whitespace_on_save = 0
