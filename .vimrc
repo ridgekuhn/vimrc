@@ -213,7 +213,7 @@ set t_Co=256
 " set termguicolors
 
 function! MyHighlights() abort
-	highlight CocErrorHighlight cterm=underline ctermfg=1 gui=undercurl guifg=#BF616A
+	highlight CocErrorHighlight cterm=underline gui=undercurl
 	" highlight CocUnderline cterm=undercurl ctermul=red gui=undercurl guisp=red
 
 	if (&background == "light")
