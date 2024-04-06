@@ -1,4 +1,5 @@
 {
+	"diagnostic.checkCurrentLine": true,
 	"languageserver": {
 		"graphql": {
 			"command": "graphql-lsp",
