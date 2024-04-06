@@ -15,6 +15,8 @@ set fcs=fold:\ ,vert:\|
 set list lcs=tab:\¦\ 
 
 " === coc.nvim of Completion ===
+" https://raw.githubusercontent.com/neoclide/coc.nvim/master/doc/coc-example-config.vim
+
 " May need for Vim (not Neovim) since coc.nvim calculates byte offset by count
 " utf-8 byte sequence
 set encoding=utf-8
@@ -175,7 +177,6 @@ nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
-
 " ========= coc.nvim Extensions  ========
 let g:coc_global_extensions = ['coc-eslint', 'coc-explorer', 'coc-prettier', 'coc-pyright', 'coc-styled-components', 'coc-tsserver']
 
