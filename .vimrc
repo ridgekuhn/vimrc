@@ -206,20 +206,33 @@ nmap <leader>p  <Plug>(coc-format-selected)
 " ======== lightline.vim ========
 set laststatus=2
 
-" ========= Solarized8 =========
+" ========= Solarized =========
 syntax enable
-set background=dark
-colorscheme solarized8
-"let g:solarized_use16=1
-"set t_Co=16
-set termguicolors
+set background=light
+colorscheme solarized
+" let g:solarized_use16=1
+" set t_Co=16
+" set termguicolors
 
-if (&background == "light")
-	highlight SpecialKey ctermbg=NONE ctermfg=12
-else
-	highlight SpecialKey ctermbg=NONE ctermfg=10
-	highlight Pmenu ctermbg=NONE
-endif
+function! MyHighlights() abort
+	highlight CocErrorHighlight cterm=underline ctermfg=1 gui=undercurl guifg=#BF616A
+	" highlight CocUnderline cterm=undercurl ctermul=red gui=undercurl guisp=red
+
+	if (&background == "light")
+		highlight CocFloating ctermbg=7 guibg=White
+		highlight SpecialKey ctermbg=NONE ctermfg=12
+	else
+		highlight CocFloating ctermbg=0 guibg=Black
+		highlight SpecialKey ctermbg=NONE ctermfg=10
+		highlight Pmenu ctermbg=NONE
+	endif
+
+endfunction
+
+augroup MyColors
+    autocmd!
+    autocmd ColorScheme * call MyHighlights()
+augroup END
 
 " ======== vim-better-whitespace ========
 let g:strip_whitespace_on_save = 0
