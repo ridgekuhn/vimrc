@@ -208,7 +208,7 @@ set laststatus=2
 
 " ========= Solarized =========
 syntax enable
-set background=light
+set background=dark
 colorscheme solarized
 " let g:solarized_use16=1
 " set t_Co=16
