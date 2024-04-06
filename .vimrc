@@ -198,6 +198,11 @@ let g:lightline = {
 " Use autocmd to force lightline update.
 autocmd User CocStatusChange,CocDiagnosticChange call lightline#update()
 
+" coc-prettier
+command! -nargs=0 Prettier :CocCommand prettier.forceFormatDocument
+vmap <leader>p  <Plug>(coc-format-selected)
+nmap <leader>p  <Plug>(coc-format-selected)
+
 " ======== lightline.vim ========
 set laststatus=2
 
