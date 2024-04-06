@@ -210,7 +210,7 @@ syntax enable
 set background=dark
 colorscheme solarized
 " let g:solarized_use16=1
-" set t_Co=16
+set t_Co=256
 " set termguicolors
 
 function! MyHighlights() abort
@@ -219,9 +219,11 @@ function! MyHighlights() abort
 
 	if (&background == "light")
 		highlight CocFloating ctermbg=7 guibg=White
+		highlight FgCocErrorFloatBgCocFloating ctermbg=7 guibg=White
 		highlight SpecialKey ctermbg=NONE ctermfg=12
 	else
 		highlight CocFloating ctermbg=0 guibg=Black
+		highlight FgCocErrorFloatBgCocFloating ctermbg=0 guibg=Black
 		highlight SpecialKey ctermbg=NONE ctermfg=10
 		highlight Pmenu ctermbg=NONE
 	endif
