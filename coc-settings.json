@@ -9,7 +9,8 @@
 			"inlayHints": {
 				"functionReturnTypes": false,
 				"variableTypes": false
-			}
+			},
+			"filetypes": ["py"]
 		}
 	}
 }
