@@ -34,3 +34,6 @@
 [submodule "pack/themes/opt/vim-solarized"]
 	path = pack/themes/opt/vim-solarized
 	url = https://github.com/ericbn/vim-solarized.git
+[submodule "pack/plugins/start/vim-prisma"]
+	path = pack/plugins/start/vim-prisma
+	url = https://github.com/prisma/vim-prisma.git

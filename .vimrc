@@ -179,7 +179,7 @@ nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
 " ========= coc.nvim Extensions  ========
-let g:coc_global_extensions = ['coc-eslint', 'coc-explorer', 'coc-prettier', 'coc-pyright', 'coc-styled-components', 'coc-tsserver']
+let g:coc_global_extensions = ['coc-eslint', 'coc-explorer', 'coc-prettier', 'coc-prisma', 'coc-pyright', 'coc-styled-components', 'coc-tsserver']
 
 " coc-explorer
 nmap <space>e <Cmd>CocCommand explorer<CR>
