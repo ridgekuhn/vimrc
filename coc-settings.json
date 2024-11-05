@@ -12,5 +12,6 @@
 			},
 			"filetypes": ["py"]
 		}
-	}
+  },
+  "coc.preferences.extensionUpdateCheck": "daily"
 }
