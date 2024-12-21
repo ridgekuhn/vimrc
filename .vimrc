@@ -229,3 +229,6 @@ set updatetime=100
 
 " ======== PICO-8 ========
 au BufRead,BufNewFile *.p8lua set ft=pico8
+
+" ======== NERDTree ========
+nmap <space>e <Cmd>NERDTree<CR>
