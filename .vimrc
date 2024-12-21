@@ -179,22 +179,7 @@ nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
 " ========= coc.nvim Extensions  ========
-let g:coc_global_extensions = ['coc-eslint', 'coc-explorer', 'coc-prettier', 'coc-prisma', 'coc-pyright', 'coc-styled-components', 'coc-tsserver']
-
-" coc-explorer
-nmap <space>e <Cmd>CocCommand explorer<CR>
-
-" lightline
-let g:lightline = {
-\ 'colorscheme': 'solarized',
-\ 'active': {
-\   'left': [ [ 'mode', 'paste' ],
-\             [ 'cocstatus', 'readonly', 'filename', 'modified' ] ]
-\ },
-\ 'component_function': {
-\   'cocstatus': 'coc#status'
-\ },
-\ }
+let g:coc_global_extensions = ['coc-eslint', 'coc-prettier', 'coc-prisma', 'coc-pyright', 'coc-styled-components', 'coc-tsserver']
 
 " Use autocmd to force lightline update.
 autocmd User CocStatusChange,CocDiagnosticChange call lightline#update()
