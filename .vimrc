@@ -179,10 +179,13 @@ nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
 " ========= coc.nvim Extensions  ========
-let g:coc_global_extensions = ['coc-eslint', 'coc-prettier', 'coc-prisma', 'coc-pyright', 'coc-styled-components', 'coc-tsserver']
+let g:coc_global_extensions = ['coc-css', 'coc-eslint', 'coc-prettier', 'coc-prisma', 'coc-pyright', 'coc-styled-components', 'coc-tsserver']
 
 " Use autocmd to force lightline update.
 autocmd User CocStatusChange,CocDiagnosticChange call lightline#update()
+
+" coc-css
+autocmd FileType scss setl iskeyword+=@-@
 
 " coc-prettier
 command! -nargs=0 Prettier :CocCommand prettier.forceFormatDocument
